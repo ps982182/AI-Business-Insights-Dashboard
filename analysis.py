@@ -2,16 +2,16 @@ import pandas as pd
 
 def analyze_sales(df):
 
-    # total sales 
+    # Total Sales 
     total_sales = df['sales'].sum()
 
-    # best selling product 
+    # Best Selling Product 
     top_product = df.groupby('product')['sales'].sum().idxmax()
 
-    # sales by region 
+    # Sales by Region 
     region_sales = df.groupby('region')['sales'].sum()
 
-    # monthly sales trend 
+    # Monthly Sales Trend 
     monthly_sales = df.groupby('month')["sales"].sum()
 
     return {

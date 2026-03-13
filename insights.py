@@ -2,14 +2,14 @@ def generate_insights(results):
 
     insights = []
 
-    # Best selling product
+    # Best Selling Product
     insights.append(f"{results['top_product']} is the best selling product.")
 
     # Region with highest sales 
     top_region = results['region_sales'].idxmax()
     insights.append(f"{top_region} region generates the highest revenue.")
 
-    # Monthly trend 
+    # Monthly Trend 
     monthly_sales = results['monthly_sales']
 
     if monthly_sales.iloc[-1] > monthly_sales.iloc[0]:
