@@ -16,6 +16,46 @@ This project demonstrates how raw business data can be transformed into **action
 
 https://ai-business-insights-dashboard-by-prajakta.streamlit.app/
 
+# 📸 Dashboard Preview
+
+### Upload Your Own Dataset
+
+Upload any CSV dataset to generate business analytics instantly.
+
+![Upload Dataset](Progress/upload_dataset.png)
+
+---
+
+### Dataset Preview
+
+Preview your dataset before running analysis.
+
+![Dataset Preview](Progress/dataset_preview.png)
+
+---
+
+### Key Business Metrics
+
+Automatically generated KPIs including total sales and best-selling product.
+
+![Key Metrics](Progress/key_metrics.png)
+
+---
+
+### Sales Analytics Dashboard
+
+Visual insights including regional sales distribution and monthly trends.
+
+![Sales Analytics](Progress/sales_analytics.png)
+
+---
+
+### Business Insights & Report Download
+
+Automatically generated insights with downloadable reports.
+
+![Business Insights](Progress/business_insights.png)
+
 ---
 
 # 🚀 Features
