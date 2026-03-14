@@ -16,6 +16,8 @@ This project demonstrates how raw business data can be transformed into **action
 
 https://ai-business-insights-dashboard-by-prajakta.streamlit.app/
 
+---
+
 # 📸 Dashboard Preview
 
 ### Upload Your Own Dataset
