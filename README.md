@@ -6,15 +6,15 @@
 ![Visualization](https://img.shields.io/badge/Visualization-Plotly-purple)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-An **interactive analytics dashboard** that analyzes sales datasets and generates **visual insights, key business metrics, and downloadable reports automatically**.
+An **interactive analytics dashboard** that analyzes sales datasets and automatically generates **visual insights, key business metrics, and downloadable reports**.
 
-This project demonstrates how raw business data can be transformed into **actionable insights through data analysis and visualization**.
+This project demonstrates how raw business data can be transformed into **actionable insights using data analysis and visualization techniques**.
 
 ---
 
 # 🌐 Live Demo
 
-https://ai-business-insights-dashboard-by-prajakta.streamlit.app/
+👉 https://ai-business-insights-dashboard-by-prajakta.streamlit.app/
 
 ---
 
@@ -22,7 +22,7 @@ https://ai-business-insights-dashboard-by-prajakta.streamlit.app/
 
 ### Upload Your Own Dataset
 
-Upload any CSV dataset to generate business analytics instantly.
+Upload any CSV dataset to instantly generate business analytics.
 
 ![Upload Dataset](Progress/upload_dataset.png)
 
@@ -30,7 +30,7 @@ Upload any CSV dataset to generate business analytics instantly.
 
 ### Dataset Preview
 
-Preview your dataset before running analysis.
+Preview your dataset before running the analysis.
 
 ![Dataset Preview](Progress/dataset_preview.png)
 
@@ -38,7 +38,7 @@ Preview your dataset before running analysis.
 
 ### Key Business Metrics
 
-Automatically generated KPIs including total sales and best-selling product.
+Automatically generated KPIs including total sales and the best-selling product.
 
 ![Key Metrics](Progress/key_metrics.png)
 
@@ -54,7 +54,7 @@ Visual insights including regional sales distribution and monthly trends.
 
 ### Business Insights & Report Download
 
-Automatically generated insights with downloadable reports.
+Automatically generated insights along with downloadable analytics reports.
 
 ![Business Insights](Progress/business_insights.png)
 
@@ -66,12 +66,11 @@ Automatically generated insights with downloadable reports.
 
 Users can:
 
-• Upload their own **CSV sales dataset**  
-• Use built-in **sample datasets**
-
-- Small Dataset
-- Medium Dataset
-- Large Dataset
+- Upload their own **CSV sales dataset**
+- Use built-in **sample datasets**
+  - Small Dataset
+  - Medium Dataset
+  - Large Dataset
 
 ---
 
@@ -79,11 +78,11 @@ Users can:
 
 The dashboard automatically generates:
 
-• 📈 **Monthly Sales Trend**  
-• 🌍 **Sales by Region**  
-• 📦 **Product Sales Comparison**
+- 📈 **Monthly Sales Trend**
+- 🌍 **Sales by Region**
+- 📦 **Product Sales Comparison**
 
-All charts are interactive and help users explore business performance quickly.
+All charts are interactive and help users explore business performance effectively.
 
 ---
 
@@ -91,9 +90,9 @@ All charts are interactive and help users explore business performance quickly.
 
 Automatically calculates important KPIs such as:
 
-• **Total Sales**  
-• **Best Selling Product**  
-• **Revenue by Region**
+- **Total Sales**
+- **Best Selling Product**
+- **Top Performing Region**
 
 These metrics provide a quick overview of business performance.
 
@@ -103,11 +102,11 @@ These metrics provide a quick overview of business performance.
 
 The dashboard generates business insights automatically based on the dataset.
 
-Example insights:
+Example insights include:
 
-• Phone is the best selling product  
-• North region generates the highest revenue  
-• Sales show an overall increasing trend across months
+- Phone is the best-selling product
+- North region generates the highest revenue
+- Sales show an overall increasing trend across months
 
 ---
 
@@ -115,10 +114,10 @@ Example insights:
 
 Users can export generated analytics as CSV reports:
 
-• **Sales Metrics Report**  
-• **Business Insights Report**
+- **Sales Metrics Report**
+- **Business Insights Report**
 
-These reports can be used for further analysis or sharing with teams.
+These reports can be used for further analysis or shared with teams.
 
 ---
 
@@ -127,44 +126,38 @@ These reports can be used for further analysis or sharing with teams.
 The dashboard includes the following sections:
 
 ### Dataset Selection
-
 Users can upload their own dataset or select sample datasets.
 
 ### Dataset Preview
-
 Displays a preview of the selected dataset.
 
 ### Key Business Metrics
-
-Highlights total sales and best-selling product.
+Highlights total sales and the best-selling product.
 
 ### Sales Analytics
-
 Visual charts showing:
 
-• Sales by region  
-• Monthly sales trend  
-• Product sales comparison
+- Sales by region
+- Monthly sales trends
+- Product sales comparison
 
 ### Business Insights
-
 Automatically generated insights based on dataset analysis.
 
 ### Download Reports
-
 Allows exporting analytics results as CSV reports.
 
 ---
 
 # ⚙️ Tech Stack
 
-| Technology   | Purpose                         |
-| ------------ | ------------------------------- |
-| Python       | Core programming language       |
-| Streamlit    | Interactive dashboard framework |
-| Pandas       | Data analysis                   |
-| Plotly       | Interactive visualizations      |
-| Git & GitHub | Version control                 |
+| Technology | Purpose |
+|------------|--------|
+| Python | Core programming language |
+| Streamlit | Interactive dashboard framework |
+| Pandas | Data analysis and processing |
+| Plotly | Interactive visualizations |
+| Git & GitHub | Version control |
 
 ---
 
@@ -228,25 +221,25 @@ http://localhost:8501
 
 This dashboard can be useful for:
 
-• Business Analysts  
-• Sales Teams  
-• Startup Founders  
-• Data Science Learners  
-• Decision Makers
+- Business Analysts
+- Sales Teams
+- Startup Founders
+- Data Science Learners
+- Decision Makers
 
-It helps convert **raw sales data into actionable insights quickly**.
+It helps convert **raw sales data into meaningful insights quickly**.
 
 ---
 
 # 📌 Future Improvements
 
-Possible enhancements:
+Possible enhancements include:
 
-• Machine learning based **sales forecasting**  
-• AI-generated recommendations  
-• Customer segmentation analysis  
-• Real-time data integration  
-• Advanced filtering options
+- Machine learning based **sales forecasting**
+- AI-generated recommendations
+- Customer segmentation analysis
+- Real-time data integration
+- Advanced filtering options
 
 ---
 
@@ -259,10 +252,10 @@ ABES Engineering College, Ghaziabad
 
 Interests:
 
-• Data Science  
-• Machine Learning  
-• Data Analytics  
-• AI Applications
+- Data Science
+- Machine Learning
+- Data Analytics
+- AI Applications
 
 ---
 
