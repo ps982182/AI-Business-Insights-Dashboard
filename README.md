@@ -6,13 +6,24 @@
 ![Visualization](https://img.shields.io/badge/Visualization-Plotly-purple)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-An **interactive analytics dashboard** that analyzes sales datasets and automatically generates **visual insights, key business metrics, and downloadable reports**.
+An **AI-driven analytics dashboard** that converts raw sales datasets into **interactive visualizations, automated business insights, and predictive analytics**.
 
-This project demonstrates how raw business data can be transformed into **actionable insights using data analysis and visualization techniques**.
+This application allows users to upload any **CSV dataset** and instantly generate:
+
+- 📊 Key performance metrics  
+- 📈 Interactive analytics dashboards  
+- 🤖 AI-generated business insights  
+- 🔮 Sales forecasting  
+- 🚨 Anomaly detection  
+- 📥 Downloadable analytics reports  
+
+The project demonstrates how **data analytics and AI techniques can transform raw business data into actionable insights.**
 
 ---
 
 # 🌐 Live Demo
+
+🚀 Try the dashboard here:
 
 👉 https://ai-business-insights-dashboard-by-prajakta.streamlit.app/
 
@@ -20,9 +31,9 @@ This project demonstrates how raw business data can be transformed into **action
 
 # 📸 Dashboard Preview
 
-### Upload Your Own Dataset
+### Upload Dataset
 
-Upload any CSV dataset to instantly generate business analytics.
+Upload any CSV dataset and instantly generate business analytics.
 
 ![Upload Dataset](Progress/upload_dataset.png)
 
@@ -30,7 +41,7 @@ Upload any CSV dataset to instantly generate business analytics.
 
 ### Dataset Preview
 
-Preview your dataset before running the analysis.
+Preview dataset structure before performing analysis.
 
 ![Dataset Preview](Progress/dataset_preview.png)
 
@@ -38,7 +49,12 @@ Preview your dataset before running the analysis.
 
 ### Key Business Metrics
 
-Automatically generated KPIs including total sales and the best-selling product.
+Automatically generated KPI metrics including:
+
+- Total Sales
+- Best Selling Product
+- Top Performing Region
+- Total Orders
 
 ![Key Metrics](Progress/key_metrics.png)
 
@@ -46,73 +62,150 @@ Automatically generated KPIs including total sales and the best-selling product.
 
 ### Sales Analytics Dashboard
 
-Visual insights including regional sales distribution and monthly trends.
+Interactive analytics charts for deeper insights into business performance.
 
 ![Sales Analytics](Progress/sales_analytics.png)
 
 ---
 
-### Business Insights & Report Download
+### Product Performance & Distribution
 
-Automatically generated insights along with downloadable analytics reports.
+Product sales comparison and distribution analysis.
+
+![Product Analytics](Progress/product_analytics.png)
+
+---
+
+### Business Insights
+
+Automatically generated insights from dataset patterns.
 
 ![Business Insights](Progress/business_insights.png)
 
 ---
 
+### AI Business Summary
+
+AI-style summary explaining key business performance indicators.
+
+![AI Summary](Progress/ai_summary.png)
+
+---
+
+### Sales Forecasting
+
+Predicts future sales trends using historical data.
+
+![Forecast](Progress/sales_forecast.png)
+
+---
+
+### Anomaly Detection
+
+Automatically detects unusual sales patterns.
+
+![Anomaly Detection](Progress/anomaly_detection.png)
+
+---
+
 # 🚀 Features
 
-## 📂 Flexible Dataset Options
+## 📂 Flexible Dataset Input
 
 Users can:
 
 - Upload their own **CSV sales dataset**
 - Use built-in **sample datasets**
-  - Small Dataset
-  - Medium Dataset
-  - Large Dataset
+
+Included sample datasets:
+
+- Small dataset
+- Medium dataset
+- Large dataset
 
 ---
 
 ## 📊 Interactive Data Visualization
 
-The dashboard automatically generates:
+The dashboard automatically generates interactive charts including:
 
-- 📈 **Monthly Sales Trend**
-- 🌍 **Sales by Region**
-- 📦 **Product Sales Comparison**
+- 📈 Monthly Sales Trend
+- 🌍 Sales by Region
+- 📦 Product Sales Comparison
+- 🥧 Product Sales Distribution
 
-All charts are interactive and help users explore business performance effectively.
+All visualizations are **interactive and powered by Plotly**.
 
 ---
 
-## 📊 Key Business Metrics
+## 📊 Business KPI Metrics
 
-Automatically calculates important KPIs such as:
+Automatically calculates important business metrics such as:
 
 - **Total Sales**
 - **Best Selling Product**
 - **Top Performing Region**
+- **Total Orders**
 
-These metrics provide a quick overview of business performance.
+These KPIs provide a quick overview of business performance.
 
 ---
 
-## 🧠 Automated Business Insights
+## 💡 Automated Business Insights
 
-The dashboard generates business insights automatically based on the dataset.
+The system generates **human-readable business insights automatically**, such as:
 
-Example insights include:
+- Best performing product
+- Highest revenue region
+- Overall sales trend across months
 
-- Phone is the best-selling product
-- North region generates the highest revenue
-- Sales show an overall increasing trend across months
+This simulates **AI-powered analytics reporting used in modern BI platforms.**
+
+---
+
+## 🤖 AI Business Summary
+
+The system generates an **AI-style summary** highlighting key performance insights from the dataset.
+
+This feature demonstrates how **AI can assist decision-makers in quickly understanding business performance.**
+
+---
+
+## 🔮 Sales Forecasting
+
+Uses historical sales patterns to predict **future sales trends**.
+
+This simulates basic **predictive analytics used in business intelligence tools.**
+
+---
+
+## 🚨 Anomaly Detection
+
+Automatically identifies unusual sales behavior such as:
+
+- sudden spikes in sales
+- abnormal drops
+- irregular performance patterns
+
+This helps detect potential **business risks or data anomalies.**
+
+---
+
+## ❓ Business Question Engine
+
+Users can select business questions such as:
+
+- Which product has the highest sales?
+- Which region generates the most revenue?
+- Which month had the highest sales?
+
+The system automatically generates answers from the dataset.
 
 ---
 
 ## 📥 Downloadable Analytics Reports
 
-Users can export generated analytics as CSV reports:
+Users can export generated analytics results as CSV files:
 
 - **Sales Metrics Report**
 - **Business Insights Report**
@@ -121,148 +214,4 @@ These reports can be used for further analysis or shared with teams.
 
 ---
 
-# 🖥 Dashboard Overview
-
-The dashboard includes the following sections:
-
-### Dataset Selection
-Users can upload their own dataset or select sample datasets.
-
-### Dataset Preview
-Displays a preview of the selected dataset.
-
-### Key Business Metrics
-Highlights total sales and the best-selling product.
-
-### Sales Analytics
-Visual charts showing:
-
-- Sales by region
-- Monthly sales trends
-- Product sales comparison
-
-### Business Insights
-Automatically generated insights based on dataset analysis.
-
-### Download Reports
-Allows exporting analytics results as CSV reports.
-
----
-
-# ⚙️ Tech Stack
-
-| Technology | Purpose |
-|------------|--------|
-| Python | Core programming language |
-| Streamlit | Interactive dashboard framework |
-| Pandas | Data analysis and processing |
-| Plotly | Interactive visualizations |
-| Git & GitHub | Version control |
-
----
-
-# 📂 Project Structure
-
-```
-AI-Business-Insights-Dashboard
-│
-├── app.py
-├── analysis.py
-├── insights.py
-├── report.py
-├── requirements.txt
-│
-├── data
-│   ├── sales_data_small.csv
-│   ├── sales_data_medium.csv
-│   ├── sales_data_large.csv
-│
-├── Progress
-├── README.md
-└── LICENSE
-```
-
----
-
-# 🧪 How to Run Locally
-
-## 1️⃣ Clone the repository
-
-```
-git clone https://github.com/ps982182/AI-Business-Insights-Dashboard.git
-cd AI-Business-Insights-Dashboard
-```
-
----
-
-## 2️⃣ Install dependencies
-
-```
-pip install -r requirements.txt
-```
-
----
-
-## 3️⃣ Run the dashboard
-
-```
-streamlit run app.py
-```
-
-The application will start at:
-
-```
-http://localhost:8501
-```
-
----
-
-# 🎯 Use Cases
-
-This dashboard can be useful for:
-
-- Business Analysts
-- Sales Teams
-- Startup Founders
-- Data Science Learners
-- Decision Makers
-
-It helps convert **raw sales data into meaningful insights quickly**.
-
----
-
-# 📌 Future Improvements
-
-Possible enhancements include:
-
-- Machine learning based **sales forecasting**
-- AI-generated recommendations
-- Customer segmentation analysis
-- Real-time data integration
-- Advanced filtering options
-
----
-
-# 👩‍💻 Author
-
-**Prajakta Singhal**
-
-BTech CSE (AI & ML)  
-ABES Engineering College, Ghaziabad
-
-Interests:
-
-- Data Science
-- Machine Learning
-- Data Analytics
-- AI Applications
-
----
-
-# ⭐ Support
-
-If you found this project useful:
-
-⭐ Star the repository  
-🍴 Fork the project  
-📢 Share it with others
+# 🖥 Dashboard Workflow
