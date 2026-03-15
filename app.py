@@ -4,6 +4,7 @@ import plotly.express as px
 from analysis import analyze_sales
 from insights import generate_insights
 from report import generate_report
+from ai_summary import generate_ai_summary
 
 st.set_page_config(
     page_title="AI Business Insights Dashboard",
@@ -161,6 +162,14 @@ if df is not None:
         st.info(insight)
 
     st.divider()
+
+    # AI Business Summary 
+    st.subheader("AI Business Summary")
+
+    summary = generate_ai_summary(results)
+
+    for s in summary:
+        st.success(s)
 
     # Download Reports
     st.subheader("Download Reports")
