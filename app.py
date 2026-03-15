@@ -203,6 +203,8 @@ if df is not None:
 
     st.dataframe(forecast_df)
 
+    st.info("Forecast generated using historical sales trends.")
+
     fig_forecast = px.line(
     forecast_df,
     x="month",
