@@ -4,6 +4,7 @@ import plotly.express as px
 from analysis import analyze_sales
 from insights import generate_insights
 from report import generate_report
+from forecast import forecast_sales
 from ai_summary import generate_ai_summary
 
 st.set_page_config(
@@ -163,15 +164,6 @@ if df is not None:
 
     st.divider()
 
-    # AI Business Summary 
-    st.subheader("AI Business Summary")
-
-    summary = generate_ai_summary(results)
-
-    for s in summary:
-        st.success(s)
-
-    st.divider()
 
     # Download Reports
     st.subheader("Download Reports")
@@ -191,6 +183,35 @@ if df is not None:
         "business_insights_report.csv",
         "text/csv"
     )
+
+    # AI Business Summary 
+    st.subheader("AI Business Summary")
+
+    summary = generate_ai_summary(results)
+
+    for s in summary:
+        st.success(s)
+
+    st.divider()
+
+    # Sales Forecasting
+    st.subheader("Sales Forecast")
+
+    forecast_df = forecast_sales(df)
+
+    st.dataframe(forecast_df)
+
+    fig_forecast = px.line(
+    forecast_df,
+    x="month",
+    y="sales",
+    title="Predicted Future Sales"
+    )
+
+    st.plotly_chart(fig_forecast)
+
+    st.divider()
+
 
 # Footer
 st.markdown(
