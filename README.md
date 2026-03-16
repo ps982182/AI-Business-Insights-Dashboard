@@ -28,6 +28,13 @@ The project demonstrates how **data analytics and AI techniques can transform ra
 👉 https://ai-business-insights-dashboard-by-prajakta.streamlit.app/
 
 ---
+# 🎥 Project Demo
+
+Watch the dashboard walkthrough:
+
+<video src="./Progress/dashboard_demo.mp4" controls width="100%"></video>
+
+---
 
 # 📸 Dashboard Preview
 
