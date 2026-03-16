@@ -31,6 +31,8 @@ The project demonstrates how **data analytics and AI techniques can transform ra
 
 # 🎥 Project Demo
 
+Watch the dashboard walkthrough:
+
 [![Watch the Demo](https://img.youtube.com/vi/ItY09QPjcMQ/maxresdefault.jpg)](https://youtu.be/ItY09QPjcMQ)
 
 ---
